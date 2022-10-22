@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    background-color: #ccc;
+    
+}
+
+.hero {
+    background-image: url(../imagem/2011-436348077-2011081605066.jpg_20110816.jpg);
+    background-size: cover;
+    padding-bottom: 250px;
+    padding-top: 0px;
+    border-top: 1px solid transparent;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 10px 25px 0px ;
+}
+
+.hero nav li{
+    display: inline-block;
+    font-size: none;
+    border: 1px solid white;
+    margin-left: 10px;
+
+}
+
+.hero nav a{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0 0.5);
+}
+
+.hero-content{
+    text-align: center;
+    margin-top: 250px;
+    color: #fff;
+}
+
+.hero-content h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 3px 3px 2px black;
+}
+
+.hero-content h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    text-shadow: 3px 3px 2px black;
+    background-color: rgba(0, 0, 0, .8);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid white; 
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    background: #fff;   
+}
+
+.primeiro{
+    background-color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+    border: 2px solid #fff;
+}
+
+.fotos{
+    width: 33%;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+.fotos img{
+    width: 100%;
+}
+
+.segundo{
+    background: #fff;
+    border: #fff;
+}
+#robert img{
+    width: 300px;
+    margin-left: 22px;
+}
+
+#chaves img{
+    width: 335px;
+}
+
+#chapo img{
+    width: 350px;
+    height: 448px;
+    margin-right: 25px;
+}
+
+#chapo{
+    width: 350px;
+    height: 280px;
+}
+
+.fotos p{
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    padding: 15px;
+    
+}
